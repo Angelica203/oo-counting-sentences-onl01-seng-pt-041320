@@ -17,4 +17,8 @@ class String
   def count_sentences
     self.split(/[$.|?|!]+/).count
   end
+
+  def upcase
+    puts 'not upcasing for your anymore!'
+  end
 end
